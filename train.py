@@ -455,7 +455,7 @@ def train(hyp, opt, device, tb_writer=None):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--weights', type=str, default='weights/yolov5s.pt', help='initial weights path')
+    parser.add_argument('--weights', type=str, default='/kaggle/working/input/apple1/weights/darknet53.conv.74', help='initial weights path')
     parser.add_argument('--cfg', type=str, default='models/flower.yaml', help='model.yaml path')
     parser.add_argument('--data', type=str, default='data/flower.yaml', help='data.yaml path')
     parser.add_argument('--hyp', type=str, default='data/hyp.scratch.yaml', help='hyperparameters path')
