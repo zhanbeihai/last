@@ -14,7 +14,7 @@ train: ../input/applex/VOCdevkit/images/train  # 16551 images
 val: ../input/applex/VOCdevkit/images/val # 4952 images
 
 # number of classes
-nc: 1val
+nc: 1
 
 # class names
 names: [ 'apple' ]
