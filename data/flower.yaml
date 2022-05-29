@@ -17,4 +17,4 @@ val: /kaggle/working/VOCdevkit/images/val # 4952 images
 nc: 1
 
 # class names
-names: [ 'apple' ]
+names: [ 'flower' ]
